@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+  <title>MADMEN TEAM</title>
+</head>
+
+<style>
+.horizontal-nav {
+  background-color: rgba(24, 1, 1, 0.381);
+  text-align: right; /* align nav bar text to right */
+}
+</style>
+
+<body>
+  <header class="page-3">
+    <a class="logo" href="pg1-home.html"></a>
+    <nav>
+      <div class="horizontal-nav">
+        <a href="pg1-home.html">HOME</a>
+        <a href="pg2-about.html">ABOUT</a>
+        <a class="active-menu-item" href="pg3-team.html">TEAM</a>
+        <a href="pg4-clients.html">CLIENTS</a>
+        <a href="pg5-art.html">ART</a>
+        <a href="pg6-awards.html">AWARDS</a>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="fa fa-bars fa-x"></span></button>
+        <div class="dropdown-content">
+          <a href="pg1-home.html">HOME</a>
+          <a href="pg2-about.html">ABOUT</a>
+          <a class="active-menu-item" href="#">TEAM</a>
+          <a href="pg4-clients.html">CLIENTS</a>
+          <a href="pg5-art.html">ART</a>
+          <a href="pg6-awards.html">AWARDS</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--<article style="width: 70%; float: left;">-->
+  
+    <article>
+    <div>
+      <!-- TODO: add main content here -->
+      <br>
+      <br>
+      
+      <h1>TEAM</h1>
+      <p> 
+        While giving viewers a taste of what business is 
+        like from every corner of the office, Mad Men focuses 
+        on Don Draper, a talented creative director with a 
+        troubled past and Peggy Olsen, an ambitious secretary 
+        turned copywriting chief. The plot explores the 
+        shifting moods and social conventions of the 1960's- 
+        including presidential campaigns, war and human rights, 
+        and weaves them into the characters’ daily business environment. 
+       It provides a glimpse into the dynamics of work culture during that era, 
+       particularly in the advertising industry. Meanwhile in the office, each character is plagued by 
+        their own demons.
+      </p>
+    </div>
+  </article>
+  <!--<section style="width: 30%; float: left; padding: 40px">-->
+  <section style="padding: 40px">
+    <!-- TODO: add sidebar content here -->
+  </section>
+
+  <style>
+    * {box-sizing: border-box}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: black;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    /* make the next button red */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      color:#9e0808
+    }
+
+    .prev {
+      color:#9e0808
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #9e0808;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/4 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #c51212;;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="assets/images/Team/Team-Profile-Don-Draper.jpg" style="width:100%">
+      <div class="text">Don Draper</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="assets/images/Team/Team-Profile-Peggy olsen.webp" style="width:100%">
+      <div class="text">Peggy Olsen</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="assets/images/Team/Team-Profile-Roger-Sterling.webp" style="width:100%">
+      <div class="text">Roger Sterling</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="assets/images/Team/Team-Profile-Joan.webp" style="width:100%">
+      <div class="text">Joan</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="assets/images/Team/team-profile-Lane-Pryce-2.webp" style="width:100%">
+      <div class="text">Layne Pryce</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    
+    </script>
+
+
+  <style>
+    .accordion {
+      background-color: #e8dede;
+      color: #715353;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ccc; 
+    }
+    
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    </style>
+    </head>
+    <body>
+    
+    <h3>TEAM PROFILES</h3>
+    
+    <button class="accordion">DON DRAPER </button>
+    <div class="panel">
+      <p>Donald Francis "Don" Draper is a founding partner and the Creative Director at Sterling Cooper Draper Pryce Advertising Agency in Manhattan, NY ("Shut the Door. Have a Seat"). Prior to that position, he was the Director of the Creative Department at the Sterling Cooper Advertising Agency ("Smoke Gets in Your Eyes"). He is regarded among his colleagues as the best to ever pitch copy. His true name is Richard "Dick" Whitman. He stole the identity of a dead officer during the Korean War.
+        
+        when we first met Don, the protagonist of the acclaimed television series Mad Men, we met a man who had it all. He was at the pinnacle of his career, happily married to his gorgeous wife, Betty, father of two adorable children, and living in a big house in one of the fanciest suburbs of Westchester. His haughty, arrogant, and aloof facade was easily mistaken for genuine confidence.
+
+        We soon found out, however, that Don was a man with many flaws. An alcoholic, a womanizer, and an adulterer, he lied about things, not the least of which was his identity. These flaws, or “symptoms” as I think of them, were an indication that something in Don was unwell. Symptoms are often brilliant clues that let an individual know they have underlying yet blocked emotions, often from the past, that need attention and release.
+        
+        </p>
+    </div>
+    
+    <button class="accordion">PEGGY OLSEN </button>
+    <div class="panel">
+      <p>Margaret "Peggy" Olson is an employee at Sterling Cooper Advertising Agency who starts out as Don Draper's secretary.
+        She later gets promoted as copywriter, the first female to hold such position since World War 2. Peggy later accepts 
+        the position of Copy Chief at Cutler, Gleason, and Chaough.
+        Peggy was born May 25, 1939 to a Roman Catholic Norwegian and Irish-American family 
+        and grew up at Bay Ridge in Brooklyn, New York. When she was 12 years old, her father died of a heart attack 
+        in front of her. She has a sister named Anita. Shortly after graduating from the Miss Deaver's, a "topnotch" 
+        secretarial school in Brooklyn, Peggy started her career as secretary to Don Draper, the creative director at Sterling Cooper.
+      </p>
+    </div>
+    
+    <button class="accordion">ROGER STERLING</button>
+    <div class="panel">
+      <p>Roger Sterling, Jr. is a senior partner and accounts executive 
+        at Sterling Cooper Advertising Agency in Manhattan, NY, a position 
+        he inherited from his father Roger Sterling, Sr., who founded the 
+        agency with Bertram Cooper in 1923. Roger was born in 1916 and is the son 
+        of Sterling Cooper co-founder Roger Sterling Sr. Because of this, 
+        Roger grew up in considerable wealth and status. As a child he had a German nanny 
+        who was fired after the Lindbergh baby kidnapping in 1932. Roger was subsequently 
+        raised by another nanny named Belva, whom he loved dearly. Always nautically minded, 
+        he claims to have sailed a tramp steamer to Hilton Head as a young man, though it 
+        was later revealed to have been a yacht.
+        As he often mentions, Sterling is a World War II Naval veteran. 
+        Prior to his deployment to the South Pacific, he was in an intense 
+        relationship with Anabelle Mathis, heiress to the Caldecott Farms dog food company. 
+        She ended their affair shortly before he shipped out, leaving Roger devastated.
+      </p>
+    </div>
+    
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+<br>
+<br>
+<br>
+
+<div class="list">
+  
+  <h3>Other Team Members</h3> 
+  
+  <div style="padding-left: 20pt;">
+
+  <h4> The supporting cast of "Mad Men" was an incredibly talented and interesting group
+    of actors and characters who played a crucial role in making the show a critical 
+    and commercial success. While the series was primarily centered around the enigmatic 
+    character of Don Draper, portrayed by Jon Hamm, the supporting cast added depth 
+    and complexity to the world of Sterling Cooper, a Madison Avenue advertising 
+    agency in the 1960s.
+  </h4>
+  </div>
+
+<ol>
+<li>Megan Megan Calvet: Secretary to Don Draper and wife</li>
+<li>Lane Pryce: Financial advisor. Worked for Puttnam, Powell, and Lowe and had been sent to the Sterling Cooper Advertising Agency </li>
+<li>Dr. Faye Miller (Cara Buono) is a consultant for a consumer research company working with Sterling Cooper Draper Pryce in Mad Men season 4.</li>
+</ol>  
+
+
+  <div class="to-top"><a href="#">Top</a></div>
+ <style>
+  .footer-content {
+    width: 100%;
+    background-color: rgb(150, 2, 2);
+  }
+ </style>
+
+  <footer class="footer-content">
+    <div class="social-icon">
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/MadMen/" target="_blank" class="fa fa-facebook-f fa-lg padding-right" style="color: #ffffff;"></a>
+      <!--Instagram-->
+      <a href="https://www.instagram.com/madmen_amc/?hl=en" target="_blank" class="fa fa-instagram fa-lg gpadding-right" style="color: #ffffff;"></a>
+      <!-- Pinterest -->
+      <a href="https://www.pinterest.com/arrobins70/mad-men/" target="_blank" class="fa fa-pinterest fa-lg padding-right" style="color: #ffffff;"></a>
+      
+    </div>
+  </footer>
+</body>
+
+</html>

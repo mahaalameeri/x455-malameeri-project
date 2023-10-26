@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+  <title>MADMEN</title>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .horizontal-nav {
+      background-color: rgba(24, 1, 1, 0.381);
+      text-align: right; /* align nav bar text to right */
+    }
+
+    .hero-image {
+      height: 100%;
+      width: 100%;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      vertical-align: bottom; /* remove whitespace below image */
+    }
+    /*
+    .herotext {
+      color: rgb(150, 2, 2);
+      text-align: left;
+      font-family: Helvetica;
+      font-size: 100px;
+      font-weight: bold;
+    }
+    */
+    h2{
+      color: #a10505;
+      text-align: center;
+      font-family: Helvetica;
+      font-size: 30px;
+      font-weight: bold;
+    }   
+
+    .container {
+      position: relative;
+      width: 100%;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 10%;
+        left: 10%; /* moves text left of center */ 
+      }
+
+    .footer-content {
+      width: 100%;
+      background-color: rgb(150, 2, 2);
+    }
+
+    .hero-button {
+      position: absolute;
+      bottom: 30%;
+      left: 20%;
+      border-radius: 30px;
+      border: none;
+      background-color: rgb(150, 2, 2);
+      color: white;
+      font-size: 15px;
+      padding: 20px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- TODO: go assets/stylesheets/styles.css, look for the logo class and change the image -->
+    <a class="logo" href="pg1-home.html"></a>
+    <nav>
+      <div class="horizontal-nav">
+        <a class="active-menu-item" hrf="#">HOME</a>
+        <a href="pg2-about.html">ABOUT</a>
+        <a href="pg3-team.html">TEAM</a>
+        <a href="pg4-clients.html">CLIENTS</a>
+        <a href="pg5-art.html">ART</a>
+        <a href="pg6-awards.html">AWARDS</a>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="fa fa-bars fa-x"></span></button>
+        <div class="dropdown-content">
+          <a class="active-menu-item" href="#">HOME</a>
+          <a href="pg2-about.html">ABOUT</a>
+          <a href="pg3-team.html">TEAM</a>
+          <a href="pg4-clients.html">CLIENTS</a>
+          <a href="pg5-art.html">ART</a>
+          <a href="pg6-awards.html">AWARDS</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="container">
+    <img class="hero-image" src="./assets/images/Home/Homepage Photo Cropped6.png" />
+    <div class="hero-text">
+      <h1 class="herotext">MAD MEN</h1>
+      <br>
+      <br>
+         <h2>Where the Truth Never Lies</h2>
+    </div>
+     
+    
+    <a href="https://www.youtube.com/watch?v=B8b0B2-hvhc" target="_blank"><button class="hero-button">TRAILER</button></a>
+  </section>
+
+  <style>
+    .footer-content {
+      width: 100%;
+      background-color: rgb(150, 2, 2);
+    }
+   </style>
+
+  <footer class="footer-content">
+    <div class="social-icon">
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/MadMen/" target="_blank" class="fa fa-facebook-f fa-lg padding-right" style="color: #ffffff;"></a>
+      <!--Instagram-->
+      <a href="https://www.instagram.com/madmen_amc/?hl=en" target="_blank" class="fa fa-instagram fa-lg gpadding-right" style="color: #ffffff;"></a>
+      <!-- Pinterest -->
+      <a href="https://www.pinterest.com/arrobins70/mad-men/" target="_blank" class="fa fa-pinterest fa-lg padding-right" style="color: #ffffff;"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
